@@ -15,3 +15,16 @@ let user ={
 }
 let key = prompt("Mit szeretnél tudni a felhasználóról","name")
 console.log(user(key))
+function UserLetre(name,age){
+    return{
+        name:name,
+        age:age
+    }
+}
+let obj={
+    for: 1,
+    let: 2,
+    return:3
+}
+console.log(obj.for + obj.let + obj.return)
+
